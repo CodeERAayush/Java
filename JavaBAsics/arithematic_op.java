@@ -6,7 +6,8 @@ public class arithematic_op {
         System.out.println("Enter first number ");
         int a = ar.nextInt();
         System.out.println("Enter second number ");
-        int b = ar.nextInt();
+        int b;
+        b = ar.nextInt();
         int sum = a + b;
         int mul = a * b;
         float div = (float) a / (float) b;
