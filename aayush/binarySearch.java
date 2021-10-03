@@ -9,7 +9,7 @@ public class binarySearch {
         int num = sc.nextInt();
 
         int ans = bin(arr, num);
-        System.out.println(ans);
+        System.out.println(num + " is at index " + ans);
         sc.close();
     }
 
