@@ -30,7 +30,4 @@ class SelectionSort {
         }
     }
 
-    // private static void swap(int min, int i, int temp) {
-
-    // }
 }
