@@ -1,3 +1,5 @@
+/* OOPs concept used*/
+
 import java.util.Scanner;
 
 class Circle {
