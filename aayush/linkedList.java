@@ -21,7 +21,7 @@ public class linkedList {
         n2.next = n3;
         n3.next = null;
         // System.out.println(head.next.data);
-        // traverse(head);
+        traverse(head);
         // insert(10, head, 1);
         // del(head, 1);
 
