@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class InsertionSort {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array!");
         int n = sc.nextInt();
@@ -12,6 +13,7 @@ public class InsertionSort {
         for (int c = 0; c <= n - 1; c++) {
             arr[c] = sc.nextInt();
         }
+
         sc.close();
         InsSort(arr);
         System.out.println("the shorted array is :");
